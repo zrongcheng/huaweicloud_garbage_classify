@@ -33,7 +33,7 @@ tf.app.flags.DEFINE_string('train_url', '', 'the path to save training outputs')
 tf.app.flags.DEFINE_integer('keep_weights_file_num', 20,
                             'the max num of weights files keeps, if set -1, means infinity')
 tf.app.flags.DEFINE_integer('num_classes', 0, 'the num of classes which your task should classify')
-tf.app.flags.DEFINE_integer('input_size', 299, 'the input image size of the model')
+tf.app.flags.DEFINE_integer('input_size', 224, 'the input image size of the model')
 tf.app.flags.DEFINE_integer('batch_size', 64, '')
 tf.app.flags.DEFINE_float('learning_rate', 1e-3, '')
 tf.app.flags.DEFINE_integer('max_epochs', 40, '')
