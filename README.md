@@ -8,3 +8,4 @@
 
 # others
 基于baseline的修改，加了一些tricks，比如label smooth，center crop等等，待你们发现
+对了，测试的地方增加了random crop，然后集成，能提升1%
